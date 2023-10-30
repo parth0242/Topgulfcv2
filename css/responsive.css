@@ -331,6 +331,23 @@
   .content-section {
     padding-top: 0;
   }
+
+  .bgnumber {
+    display: none;
+  }
+
+  .valinner {
+    position: unset;
+    transform: unset;
+    left: auto;
+    width: 100%;
+    margin-bottom: 20px ;
+  }
+  .valPart {
+    text-align: center;
+    position: relative;
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 399px) {
