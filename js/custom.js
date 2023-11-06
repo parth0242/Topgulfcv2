@@ -27,11 +27,11 @@ $(document).ready(function () {
 $(document).ready(function () {
     var owl = $('.logo-pannel');
     owl.owlCarousel({
-        items: 5,
+        items: 7,
         loop: false,
         dots: false,
         nav: false,
-        margin: 20,
+        margin: 5,
         autoplay: true,
         slideTransition: 'linear',
         autoplayTimeout: 0,
@@ -47,4 +47,28 @@ $(document).ready(function () {
 
     });
 
+});
+
+$(document).ready(function () {
+    $(".client-slider").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        responsiveClass: true,
+        dots: true,
+        items: 1,
+        autoplay: false,
+        navText: [
+            '<span class="arrow-left"><img src="images/slider-left-arrow.png" alt="arrow" /></span>',
+            '<span class="arrow-right"><img src="images/slider-right-arrow.png" alt="arrow" /></span>',
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+        },
+    });
 });

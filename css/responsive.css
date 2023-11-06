@@ -156,10 +156,6 @@
     margin-top: 25px;
   }
 
-  .feedback {
-    display: none;
-  }
-
   .blog-img img {
     width: 100%;
   }
@@ -229,7 +225,7 @@
   }
 
   .navbar-brand img {
-    max-width: 150px;
+    max-width: 130px;
   }
 
   .news-latter-input .blue-btn {
@@ -341,8 +337,9 @@
     transform: unset;
     left: auto;
     width: 100%;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
   }
+
   .valPart {
     text-align: center;
     position: relative;

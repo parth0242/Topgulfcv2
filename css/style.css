@@ -365,6 +365,7 @@ footer .login-footer ul li a {
 
 .footer-top {
   margin-top: 50px;
+  display: none;
 }
 
 .footer-top img {
@@ -485,7 +486,7 @@ section {
 
 .content-sec-inner {
   background: #F5FBFF;
-  padding: 50px 0;
+  padding: 50px 30px;
   border-radius: 10px;
 }
 
@@ -926,4 +927,153 @@ input[type="file"] {
 
 .content-img img {
   width: 100%;
+}
+
+.trusted-by-logo img {
+  max-width: 150px;
+  max-height: 100px;
+}
+
+.job-a-reality .section-title {
+  font-size: 20px;
+}
+
+.job-sec-icon img {
+  max-width: 35px;
+}
+
+.new-cta .content-sec-inner .red-btn {
+  max-width: 250px;
+  margin: 0;
+}
+
+.new-cta {
+  padding-bottom: 0;
+  background-color: #F5FBFF;
+}
+
+.new-cta .content-sec-inner {
+  padding: 0;
+}
+
+.new-cta .section-title {
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.red-btn.my-2.my-sm-4.bg-black:hover {
+  background: var(--red) !important;
+}
+
+.navbar-brand img {
+  max-width: 180px;
+}
+
+.img-fluid.f-logo {
+  max-width: 160px;
+}
+
+.about-sec {
+  padding-bottom: 0;
+}
+
+.client-slider-inner {
+  background: #f7f7f9;
+  padding: 30px;
+}
+
+.client-slider-inner .quote {
+  max-width: 40px;
+}
+
+.client-slider-inner p {
+  color: var(--black);
+  margin: 10px 0 20px 0;
+}
+
+.user-s span {
+  background-color: #d9d9d9;
+  height: 79px;
+  width: 79px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.user-s span img {
+  max-width: 60px;
+}
+
+.user-s p {
+  color: var(--black);
+  margin: 2px 0 0 0;
+}
+
+.client-slider .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.client-slider .owl-dot span {
+  height: 15px;
+  width: 15px;
+
+  background-color: #f7f7f9;
+  border: 1px solid var(--red);
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.client-slider .owl-dot.active span {
+  border: 1px solid var(--red);
+  background: var(--red);
+}
+
+.client-slider-inner {
+  background-color: var(--white);
+  border-radius: 30px;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 40px;
+  display: flex;
+  box-shadow: 0 1px 18px rgba(53, 95, 88, .2);
+  margin: 20px 50px;
+}
+
+.testimonial-inner {
+  margin-top: 29px;
+}
+
+.user-s h6 {
+  color: var(--red);
+  text-transform: capitalize;
+}
+
+
+
+.client-slider .owl-nav img {
+  max-width: 35px;
+}
+
+.client-slider .owl-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 40%;
+}
+
+.client-slider .owl-prev {
+  left: 0;
+  position: absolute;
+}
+
+.client-slider .owl-next {
+  right: 0;
+  position: absolute;
 }
