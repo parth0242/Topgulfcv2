@@ -1077,3 +1077,90 @@ input[type="file"] {
   right: 0;
   position: absolute;
 }
+
+.job-sec-box .red-btn {
+  max-width: 150px;
+  font-size: 16px;
+  padding: 8px 10px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.paid-service .job-sec-box .section-title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.paid-service .job-sec-box .section-title span small {
+  font-size: 14px;
+}
+
+.paid-service .job-sec-box .section-title span {
+  font-size: 33px;
+}
+
+.paid-service .job-sec-box {
+  border: 1px solid var(--red);
+}
+
+.sub-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.cont-banner {
+  background-position: top;
+}
+
+.sub-banner-content {
+  text-align: center;
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sub-banner-content h1,
+.sub-banner-content p {
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.contact-form .form-control {
+  color: #555555;
+  font-size: 16px;
+  padding: 0 15px;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: unset;
+  outline: unset;
+  background-color: var(--white);
+}
+
+.contact-form-right {
+  border-radius: 20px;
+  background: #F5FBFF;
+  padding: 50px 30px;
+  margin-top: 50px;
+}
+
+.contact-form textarea.form-control {
+  height: 100px;
+  resize: unset;
+  padding-top: 10px;
+}
+
+.contact-form .red-btn {
+  max-width: 298px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  border: 0;
+  width: 100%;
+}
