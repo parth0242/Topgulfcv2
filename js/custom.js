@@ -72,3 +72,14 @@ $(document).ready(function () {
         },
     });
 });
+
+AOS.init({
+    duration: 2000
+});
+
+// AOS.init({
+//    offset: 200,
+//    duration: 600,
+//    easing: 'ease-in-sine',
+//    delay: 100,
+//  });
